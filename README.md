@@ -48,6 +48,11 @@ Objective:
 Compare RANK() vs DENSE_RANK() for employees grouped by department and sorted by salary.  
 ![image alt](https://github.com/Daveeeid/SELECTed2Win/blob/master/rank.png?raw=true)
 
+Difference:   
+-----------  
+**RANK()** skips values after ties.  
+
+**DENSE_RANK()** does not skip values for ties.  
 **Application:**
 Helpful in reward systems, rankings, and performance analysis within departments.
 
