@@ -84,9 +84,23 @@ Identify the earliest two employees who joined in each department.
 
 SQL:
 
-![query 4](https://github.com/user-attachments/assets/c4519a5c-3c6d-47f2-b3e6-f3dea8c888d8)
+![query 4] 
 
-Why ROW_NUMBER()?
+SELECT *  
+FROM (  
+    SELECT   
+        id,  
+        name,  
+        department,  
+        join_date,  
+        ROW_NUMBER() OVER (PARTITION BY department ORDER BY join_date ASC) AS row_num  
+    FROM employees  
+) ranked  
+WHERE row_num <= 2;  
+
+(https://github.com/user-attachments/assets/c4519a5c-3c6d-47f2-b3e6-f3dea8c888d8)
+
+Why ROW_NUMBER()?  
 
 Guarantees exactly 2 employees per department without ties.
 
