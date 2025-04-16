@@ -22,10 +22,8 @@ Query 1: Compare Salary with Previous and Next
 Objective:
 Use LAG() and LEAD() to compare each employee’s salary to their previous and next colleague (by salary).
 
-🧾 SQL:
-sql
-Copy
-Edit
+SQL:
+
 SELECT 
     id,
     name,
