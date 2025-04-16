@@ -106,6 +106,87 @@ ORDER BY department, salary DESC;
 
 
 
+SELECT *
+FROM (
+    SELECT 
+        id,
+        name,
+        department,
+        salary,
+        RANK() OVER (PARTITION BY department ORDER BY salary DESC) AS rank_in_dept
+    FROM employees
+) ranked
+WHERE rank_in_dept <= 3
+ORDER BY department, rank_in_dept;
+
+
+
+
+
+
+
+
+SELECT *
+FROM (
+    SELECT 
+        id,
+        name,
+        department,
+        join_date,
+        ROW_NUMBER() OVER (PARTITION BY department ORDER BY join_date ASC) AS row_num
+    FROM employees
+) ranked
+WHERE row_num <= 2
+ORDER BY department, row_num;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT 
+    id,
+    name,
+    department,
+    salary,
+    MAX(salary) OVER (PARTITION BY department) AS max_salary_in_dept,
+    MAX(salary) OVER () AS max_salary_overall
+FROM employees; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
