@@ -84,7 +84,6 @@ Identify the earliest two employees who joined in each department.
 
 SQL:
 
-![query 4] 
 
 SELECT *  
 FROM (  
@@ -98,7 +97,7 @@ FROM (
 ) ranked  
 WHERE row_num <= 2;  
 
-(https://github.com/user-attachments/assets/c4519a5c-3c6d-47f2-b3e6-f3dea8c888d8)
+![query 4](https://github.com/user-attachments/assets/c4519a5c-3c6d-47f2-b3e6-f3dea8c888d8)
 
 Why ROW_NUMBER()?  
 
