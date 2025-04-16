@@ -12,11 +12,11 @@ We used a fictional employees table with the following columns:
 
 Column	  |Description
 ---------------------------------------------------
-id	      | Employee ID
-name	    | Employee Name
-department| Department name
-salary	  | Monthly salary in USD
-join_date | Date the employee joined
+id: Employee ID
+name: Employee Name
+department: Department name
+salary: Monthly salary in USD
+join_date: Date the employee joined
 
 Query 1: Compare Salary with Previous and Next
 Objective:
@@ -47,6 +47,7 @@ Query 2: Ranking Employees Within Each Department
 Objective:
 Compare RANK() vs DENSE_RANK() for employees grouped by department and sorted by salary.
 ![image alt](https://github.com/Daveeeid/SELECTed2Win/blob/master/rank.png?raw=true)
-
+**Application:**
+Helpful in reward systems, rankings, and performance analysis within departments.
 
 
