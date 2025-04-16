@@ -58,5 +58,12 @@ Difference:
 **Application:**
 Helpful in reward systems, rankings, and performance analysis within departments.
 
+**_Query 3: Top 3 Salaries per Department_**
+Objective:
+Fetch the top 3 earners in each department using window ranking.
+
+
+
+
 
 
