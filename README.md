@@ -101,13 +101,10 @@ Objective:
 Calculate max salary per department and across the entire organization.
 
 SQL:
+       
+![query 5](https://github.com/user-attachments/assets/579eb540-e227-432e-bdb8-b2ac9a257676)
 
 Application:
 
 Useful for comparing individuals to departmental and global salary benchmarks.
-
-
-
-
-
 
