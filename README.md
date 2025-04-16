@@ -59,8 +59,52 @@ Difference:
 Helpful in reward systems, rankings, and performance analysis within departments.
 
 **_Query 3: Top 3 Salaries per Department_**
+
 Objective:
+
 Fetch the top 3 earners in each department using window ranking.
+
+SQL:
+
+![query 3](https://github.com/user-attachments/assets/e353ddc1-14c2-47fe-86b1-399585ffc727)
+
+Note:
+
+May return more than 3 rows if there are salary ties at the 3rd position.
+
+Application:
+
+Used in highlighting top performers in reports or recognition programs.
+
+**_Query 4: Top 3 First 2 Employees per Department by Join Date_**
+
+Objective:
+
+Identify the earliest two employees who joined in each department.
+
+SQL:
+
+![query 4](https://github.com/user-attachments/assets/c4519a5c-3c6d-47f2-b3e6-f3dea8c888d8)
+
+Why ROW_NUMBER()?
+
+Guarantees exactly 2 employees per department without ties.
+
+Application:
+
+Useful for showcasing veteran staff or awarding loyalty programs.
+
+**_Query 5: Query 5: Aggregation with Window Functions_**
+
+Objective:
+
+Calculate max salary per department and across the entire organization.
+
+SQL:
+
+Application:
+
+Useful for comparing individuals to departmental and global salary benchmarks.
 
 
 
