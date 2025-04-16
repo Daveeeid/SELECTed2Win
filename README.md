@@ -47,7 +47,9 @@ Used in salary growth tracking, performance reviews, or bonus eligibility analys
 Objective:  
 Compare RANK() vs DENSE_RANK() for employees grouped by department and sorted by salary.  
 ![image alt](https://github.com/Daveeeid/SELECTed2Win/blob/master/rank.png?raw=true)
+
 **Application:**
 Helpful in reward systems, rankings, and performance analysis within departments.
+
 
 
