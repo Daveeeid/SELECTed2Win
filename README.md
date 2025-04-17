@@ -2,7 +2,7 @@ Group Name: SELECTed2Win
 Names: MUHIRWA David 27436  
        IRADUKUNDA Oscar 26281  
 
-SQL Window Functions Project:
+SQL Window Function Project:
 -----------------------------
 
 This project demonstrates the use of SQL Window Functions to analyze employee data. It was built collaboratively as part of our coursework. All queries were written using SQL, and the dataset simulates a company's employee information.
