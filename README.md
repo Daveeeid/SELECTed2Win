@@ -9,7 +9,7 @@ This project demonstrates the use of SQL Window Functions to analyze employee da
 
 Dataset Description
 -------------------
-We used fictional employees table with the following columns:
+We used a fictional employees table with the following columns:
 
 
 Column	  |Description
