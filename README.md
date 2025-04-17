@@ -1,4 +1,4 @@
-Group Name: SELECTed2Win  
+Group Name: SELECTed2Win   
 Names: MUHIRWA David 27436  
        IRADUKUNDA Oscar 26281
 
