@@ -12,7 +12,7 @@ Dataset Description
 We used a fictional employees table with the following columns:
 
 
-Column	  |Descriptions
+Column	  |Description
 ---------------------------------------------------
 id: Employee ID  
 name: Employee Name  
